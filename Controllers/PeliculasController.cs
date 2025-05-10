@@ -19,11 +19,11 @@ namespace UCompensarPeliculas.Controllers
                 UrlPoster = "https://upload.wikimedia.org/wikipedia/en/f/f7/Inside_Out_2_poster.jpg",
                 Reparto = new List<string> { "Amy Poehler", "Maya Hawke", "Kensington Tallman" },
                 Sinopsis = "Alegría y sus amigas enfrentan nuevas emociones cuando Riley entra a la adolescencia.",
-                Comentarios = new List<ComentarioDTO> { 
-                    new() { 
-                        Usuario = "Camila", 
+                Comentarios = new List<ComentarioDTO> {
+                    new() {
+                        Usuario = "Camila",
                         Texto = "Hermosa película para todas las edades.",
-                        FechaComentario = DateTime.Now 
+                        FechaComentario = DateTime.Now
                     }
                 }
             },
@@ -40,10 +40,10 @@ namespace UCompensarPeliculas.Controllers
                 Reparto = new List<string> { "Cillian Murphy", "Emily Blunt", "Matt Damon" },
                 Sinopsis = "La historia del físico teórico J. Robert Oppenheimer y su rol en el Proyecto Manhattan.",
                 Comentarios = new List<ComentarioDTO> {
-                    new() { 
-                        Usuario = "Luis", 
-                        Texto = "Excelente dirección y actuaciones.", 
-                        FechaComentario = DateTime.Now 
+                    new() {
+                        Usuario = "Luis",
+                        Texto = "Excelente dirección y actuaciones.",
+                        FechaComentario = DateTime.Now
                     },
                 }
             },
@@ -60,10 +60,10 @@ namespace UCompensarPeliculas.Controllers
                 Reparto = new List<string> { "Margot Robbie", "Ryan Gosling" },
                 Sinopsis = "Barbie empieza a cuestionar su mundo perfecto y busca respuestas en el mundo real.",
                 Comentarios = new List<ComentarioDTO> {
-                    new() { 
-                        Usuario = "Laura", 
-                        Texto = "Divertida y sorprendentemente profunda.", 
-                        FechaComentario = DateTime.Now 
+                    new() {
+                        Usuario = "Laura",
+                        Texto = "Divertida y sorprendentemente profunda.",
+                        FechaComentario = DateTime.Now
                     }
                 }
             },
@@ -80,10 +80,10 @@ namespace UCompensarPeliculas.Controllers
                 Reparto = new List<string> { "Robert Pattinson", "Zoë Kravitz", "Paul Dano" },
                 Sinopsis = "Batman investiga una serie de asesinatos conectados con la corrupción de Gotham.",
                 Comentarios = new List<ComentarioDTO> {
-                    new() { 
+                    new() {
                         Usuario = "Juan",
-                        Texto = "La mejor versión de Batman desde Nolan.", 
-                        FechaComentario = DateTime.Now 
+                        Texto = "La mejor versión de Batman desde Nolan.",
+                        FechaComentario = DateTime.Now
                     }
                 }
             },
@@ -100,10 +100,10 @@ namespace UCompensarPeliculas.Controllers
                 Reparto = new List<string> { "Timothée Chalamet", "Zendaya", "Florence Pugh" },
                 Sinopsis = "Paul busca venganza mientras lidera la revolución en Arrakis.",
                 Comentarios = new List<ComentarioDTO> {
-                    new() { 
+                    new() {
                         Usuario = "Pedro",
                         Texto = "Una obra visualmente impresionante.",
-                        FechaComentario = DateTime.Now 
+                        FechaComentario = DateTime.Now
                     }
                 }
             },
@@ -120,10 +120,10 @@ namespace UCompensarPeliculas.Controllers
                 Reparto = new List<string> { "Sam Worthington", "Zoe Saldaña", "Sigourney Weaver" },
                 Sinopsis = "Jake Sully y Neytiri enfrentan nuevas amenazas para su familia en los océanos de Pandora.",
                 Comentarios = new List<ComentarioDTO> {
-                    new() { 
-                        Usuario = "Andrea", 
-                        Texto = "Visualmente asombrosa, vale cada minuto.", 
-                        FechaComentario = DateTime.Now 
+                    new() {
+                        Usuario = "Andrea",
+                        Texto = "Visualmente asombrosa, vale cada minuto.",
+                        FechaComentario = DateTime.Now
                     }
                 }
             },
@@ -140,10 +140,10 @@ namespace UCompensarPeliculas.Controllers
                 Reparto = new List<string> { "Chris Pratt", "Anya Taylor-Joy", "Jack Black" },
                 Sinopsis = "Mario y Luigi deben salvar el Reino Champiñón del malvado Bowser.",
                 Comentarios = new List<ComentarioDTO> {
-                    new() { 
-                        Usuario = "David", 
-                        Texto = "Muy divertida para los fans del videojuego.", 
-                        FechaComentario = DateTime.Now 
+                    new() {
+                        Usuario = "David",
+                        Texto = "Muy divertida para los fans del videojuego.",
+                        FechaComentario = DateTime.Now
                     }
                 }
             },
@@ -161,9 +161,9 @@ namespace UCompensarPeliculas.Controllers
                 Sinopsis = "Maverick debe entrenar a una nueva generación de pilotos para una peligrosa misión.",
                 Comentarios = new List<ComentarioDTO> {
                     new() {
-                        Usuario = "Miguel", 
-                        Texto = "Acción intensa y muy bien lograda.", 
-                        FechaComentario = DateTime.Now 
+                        Usuario = "Miguel",
+                        Texto = "Acción intensa y muy bien lograda.",
+                        FechaComentario = DateTime.Now
                     }
                 }
             },
@@ -181,8 +181,8 @@ namespace UCompensarPeliculas.Controllers
                 Reparto = new List<string> { "Tom Holland", "Andrew Garfield", "Tobey Maguire" },
                 Sinopsis = "Peter Parker rompe el multiverso y se encuentra con versiones alternativas de sí mismo.",
                 Comentarios = new List<ComentarioDTO> {
-                    new() { 
-                        Usuario = "Sofía", 
+                    new() {
+                        Usuario = "Sofía",
                         Texto = "Nostalgia y emoción en una sola película.",
                         FechaComentario = DateTime.Now
                     }
@@ -201,10 +201,10 @@ namespace UCompensarPeliculas.Controllers
                 Reparto = new List<string> { "Keanu Reeves", "Carrie-Anne Moss", "Yahya Abdul-Mateen II" },
                 Sinopsis = "En un nuevo Matrix, Neo busca liberar su mente nuevamente.",
                 Comentarios = new List<ComentarioDTO> {
-                    new() { 
+                    new() {
                         Usuario = "Daniel",
-                        Texto = "Para los fanáticos de la saga original, aunque algo confusa.", 
-                        FechaComentario = DateTime.Now 
+                        Texto = "Para los fanáticos de la saga original, aunque algo confusa.",
+                        FechaComentario = DateTime.Now
                     }
                 }
             },
@@ -242,10 +242,10 @@ namespace UCompensarPeliculas.Controllers
                 Reparto = new List<string> { "Leonardo DiCaprio", "Kate Winslet", "Billy Zane" },
                 Sinopsis = "El amor florece entre dos personas de clases sociales diferentes a bordo del fatídico Titanic.",
                 Comentarios = new List<ComentarioDTO> {
-                    new() { 
+                    new() {
                         Usuario = "Carlos",
-                        Texto = "Una de las historias de amor más épicas de la historia del cine.", 
-                        FechaComentario = DateTime.Now 
+                        Texto = "Una de las historias de amor más épicas de la historia del cine.",
+                        FechaComentario = DateTime.Now
                     }
                 }
             },
@@ -276,10 +276,10 @@ namespace UCompensarPeliculas.Controllers
                 Reparto = new List<string> { "Tim Robbins", "Morgan Freeman", "Bob Gunton" },
                 Sinopsis = "Un hombre enfrenta la dura realidad de la vida en prisión mientras busca un escape hacia la libertad.",
                 Comentarios = new List<ComentarioDTO> {
-                    new() { 
+                    new() {
                         Usuario = "Miguel",
-                        Texto = "Una de las películas más poderosas sobre la esperanza y la redención.", 
-                        FechaComentario = DateTime.Now 
+                        Texto = "Una de las películas más poderosas sobre la esperanza y la redención.",
+                        FechaComentario = DateTime.Now
                     }
                 }
             }
@@ -297,10 +297,8 @@ namespace UCompensarPeliculas.Controllers
             new() { Id = 9, Nombre = "Aventura" }
         ];
 
-
         [HttpGet("/")]
         [HttpGet("/Peliculas")]
-        //[HttpGet()]
         public ActionResult Index(int genero, string buscar)
         {
             var peliculas = _peliculas.Where(p => p.Generos.Any(g => g.Id == genero)).ToList();
@@ -325,20 +323,5 @@ namespace UCompensarPeliculas.Controllers
             var detellePelicula = _peliculas.FirstOrDefault(p => p.Id == id);
             return View(detellePelicula);
         }
-
-        // POST: PeliculasController/Create
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Create(IFormCollection collection)
-        //{
-        //    try
-        //    {
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    catch
-        //    {
-        //        return View();
-        //    }
-        //}
     }
 }
