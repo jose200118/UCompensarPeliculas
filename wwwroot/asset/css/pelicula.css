@@ -1,0 +1,50 @@
+﻿.poster-img {
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+    .poster-img:hover {
+        transform: scale(1.03);
+    }
+
+.info-card {
+    border-radius: 15px;
+    background: #f8f9fa;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.comentario-box {
+    background-color: #fff;
+    padding: 15px;
+    border-left: 4px solid #0d6efd;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.titulo {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.subtitulo {
+    font-weight: 500;
+    color: #555;
+}
+
+.img-fluid {
+    height: 430px;
+}
+
+@media (max-width: 768px) {
+    .img-fluid {
+        height: 300px;
+    }
+}
+
+@media (max-width: 250px) {
+    .img-fluid {
+        height: 150px;
+    }
+}
